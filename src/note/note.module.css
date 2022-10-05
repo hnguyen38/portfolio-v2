@@ -1,0 +1,20 @@
+.text {
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: fixed;
+  height: 10rem;
+  width: 9rem;
+  z-index: 11;
+  margin-top: 1rem;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  color: rgb(243, 171, 243);
+}

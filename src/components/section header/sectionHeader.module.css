@@ -2,4 +2,13 @@
   font-family: "Poppins", sans-serif;
   color: #d6cfff;
   font-size: 4rem;
+  text-decoration: underline;
+}
+
+a,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }

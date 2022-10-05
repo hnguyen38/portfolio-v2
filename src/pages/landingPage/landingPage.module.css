@@ -20,6 +20,7 @@
 
 .buttonsDiv {
   margin-top: 3.3rem;
+  width: fit-content;
 }
 
 .imgDiv {
@@ -30,4 +31,8 @@
 
 .imgSize {
   height: 48rem;
+}
+
+.a {
+  width: 3rem;
 }

@@ -23,4 +23,14 @@
   color: #d6cfff;
   margin: 0 5rem;
   background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+}
+/* dont let others move */
+.text:hover,
+.a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #514093;
+  transform: scale(1.1);
+  border-radius: 3rem;
 }

@@ -12,9 +12,9 @@
   font-size: 4rem;
   margin-right: 2rem;
 }
-/* 
+
 .img:hover,
 .mail:hover {
-  width: 4.2rem;
-  font-size: 4.2rem;
-} */
+  cursor: pointer;
+  transform: scale(1.2);
+}

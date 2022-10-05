@@ -4,7 +4,7 @@ import girl from "../../images/girl.png";
 
 import Icons from "./icons/icons";
 
-function LandingPage() {
+function LandingPage(props) {
   return (
     <div className={styles.container}>
       <div className={styles.textDiv}>
@@ -13,7 +13,9 @@ function LandingPage() {
         <span className={styles.text}>Based in the United States</span>
 
         <div className={styles.buttonsDiv}>
-          <Button text="View Projects" />
+          <a href={props.href}>
+            <Button text="View Projects" />
+          </a>
           <Icons className={styles.icon} />
         </div>
       </div>

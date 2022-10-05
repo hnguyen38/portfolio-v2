@@ -1,4 +1,5 @@
 import Footer from "./footer/footer";
+import Note from "./note/note";
 import AboutMe from "./pages/about/aboutMe";
 import ContactMe from "./pages/contact/contact";
 import LandingPage from "./pages/landingPage/landingPage";
@@ -8,11 +9,12 @@ import NavBar from "./routes/navbar/navbar";
 function App() {
   return (
     <div>
-      <NavBar />
-      <LandingPage />
-      <AboutMe />
-      <ProjectPage />
-      <ContactMe />
+      <Note />
+      <NavBar about="#about" projects="#projects" contact="#contact" />
+      <LandingPage href="#projects" />
+      <AboutMe name="about" />
+      <ProjectPage name="projects" />
+      <ContactMe name="contact" />
       <Footer />
     </div>
   );

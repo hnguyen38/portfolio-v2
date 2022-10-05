@@ -9,16 +9,15 @@ import book from "../../images/book.png";
 import Thumbnail from "../../components/project/thumbnail/thumbnail";
 import ProjectText from "../../components/project/text/projectText";
 
-function ProjectPage() {
+function ProjectPage(props) {
   return (
     <div className={styles.container}>
-      <SectionHeader title="Projects" />
+      <SectionHeader title="Projects" name={props.name} />
       <div className={styles.div}>
         <Thumbnail title="Netflix Clone" img={netflix} alt="netflix" />
         <ProjectText
-          des="a netflix clone description  enter
-            it here"
-          tech="HTML, CSS, ReactJS"
+          des="This is a Netflix Clone that uses a movie database API "
+          tech="HTML5, CSS, ReactJS"
           live="https://netflix-clone-038.netlify.app/"
           code="https://github.com/hnguyen38/netflix-clone"
         />
@@ -30,9 +29,8 @@ function ProjectPage() {
 
       <div className={styles.rightDiv}>
         <ProjectText
-          des="a netflix clone description  enter
-            it here"
-          tech="HTML, CSS, ReactJS"
+          des="A weather application that uses a weather API. It will fetch the forecase for any given city."
+          tech="HTML5, CSS, Bootstrap5, ReactJS"
           live="https://weather-app-038.netlify.app/"
           code="https://github.com/hnguyen38/weather-app"
         />
@@ -46,9 +44,8 @@ function ProjectPage() {
       <div className={styles.div}>
         <Thumbnail title="Booking App" img={book} alt="book" />
         <ProjectText
-          des="a netflix clone description  enter
-            it here"
-          tech="HTML, CSS, ReactJS"
+          des="A CRUD application with a signin/signup function. Record keeping for job or school applications"
+          tech="HTML5, CSS, ReactJS, Firebase, Firestore"
           live="https://book-app-038.netlify.app/"
           code="https://github.com/hnguyen38/book-keeping-app"
         />

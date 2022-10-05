@@ -2,14 +2,14 @@ import SectionHeader from "../../components/section header/sectionHeader";
 import cat from "../../images/cat.jpg";
 import styles from "./contact.module.css";
 
-function ContactMe() {
+function ContactMe(props) {
   return (
     <div className={styles.container}>
       <div className={styles.textDiv}>
-        <SectionHeader title="Contact Me" />
+        <SectionHeader title="Contact Me" name={props.name} />
         <div className={styles.text}>
           <span>Thank you for viewing my porfolio!</span>
-          <span>Please contact me xyz</span>
+          <span>Please contact me via E-mail for further inquires.</span>
         </div>
         <img src={cat} alt="cat" className={styles.cat} />
       </div>
