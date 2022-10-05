@@ -1,0 +1,33 @@
+.container {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 13rem 10rem;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.buttonsDiv {
+  margin-top: 3.3rem;
+}
+
+.imgDiv {
+  position: absolute;
+  right: 0;
+  top: 10rem;
+}
+
+.imgSize {
+  height: 48rem;
+}

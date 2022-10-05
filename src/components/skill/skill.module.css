@@ -1,0 +1,12 @@
+.skill {
+  font-size: 2rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6.2rem;
+}

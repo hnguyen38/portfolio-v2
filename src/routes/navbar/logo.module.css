@@ -1,0 +1,12 @@
+.container {
+  position: fixed;
+  left: 10rem;
+  top: 2.6rem;
+}
+
+.logo {
+  padding: 0.7rem;
+  background-color: #d6cfff;
+  color: #1a1a1a;
+  border-radius: 3rem;
+}

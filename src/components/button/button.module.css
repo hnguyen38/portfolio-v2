@@ -1,0 +1,12 @@
+.container {
+  margin: 1rem 0;
+}
+.text {
+  padding: 0.7rem 1.7rem;
+  background-color: #514093;
+  color: #d6cfff;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3rem;
+  font-weight: bold;
+}

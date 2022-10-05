@@ -1,0 +1,104 @@
+.container {
+  margin-left: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0 3rem 0;
+}
+.cat {
+  max-width: 25rem;
+}
+
+/* form */
+.formDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.div {
+  background-color: #d9d9d9;
+  height: 47rem;
+  width: 57rem;
+  border-radius: 5rem;
+  margin-bottom: -3rem;
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin-left: 4rem;
+  background-color: #d9d9d9;
+}
+
+.input {
+  background-color: #d9d9d9;
+  font-size: 2rem;
+  margin: 2.4rem 0;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-bottom: 0.15rem solid #1a1a1a;
+  color: #1a1a1a;
+  font-family: "Raleway", sans-serif;
+}
+
+.input::placeholder {
+  color: #1a1a1a;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  font-size: 2rem;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 3rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* info */
+
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 5rem;
+  margin-bottom: 16rem;
+  background-color: #d9d9d9;
+}
+
+.contactDiv {
+  margin-bottom: 3.9rem;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  color: #1a1a1a;
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  background-color: #d9d9d9;
+}
