@@ -16,3 +16,13 @@
   color: white;
   transform: scale(1.2);
 }
+
+@media (max-width: 440px) {
+  .text {
+    font-size: 1rem;
+    padding: 0.2rem 1.2rem;
+  }
+  .container {
+    margin: 0.5rem 0;
+  }
+}

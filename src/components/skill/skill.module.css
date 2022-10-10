@@ -10,3 +10,9 @@
   flex-direction: column;
   margin-right: 6.2rem;
 }
+
+@media (max-width: 500px) {
+  .skill {
+    font-size: 1.5rem;
+  }
+}

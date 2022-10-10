@@ -18,6 +18,7 @@ function AboutMe(props) {
           <SkillDiv first="HTML" second="CSS" third="SCSS" />
           <SkillDiv first="Bootstrap" second="Javascript" third="ReactJS" />
           <SkillDiv first="Github" second="Firebase" third="Figma" />
+          <SkillDiv first="Visual Studio Code" />
         </div>
       </div>
     </div>

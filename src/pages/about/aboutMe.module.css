@@ -1,5 +1,8 @@
 .container {
-  margin: 20rem 10rem;
+  margin: 20rem 10rem 10rem 10rem;
+  display: block;
+  max-width: 100vw;
+  position: relative;
 }
 .text {
   color: white;
@@ -15,4 +18,16 @@
 
 .subsection {
   margin-top: 5.6rem;
+}
+
+@media (max-width: 1433px) {
+  .container {
+    margin: 20rem 3rem 0rem 3rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  .skillsContainer {
+    flex-wrap: wrap;
+  }
 }

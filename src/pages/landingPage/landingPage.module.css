@@ -36,3 +36,45 @@
 .a {
   width: 3rem;
 }
+
+@media (max-width: 1433px) {
+  .container {
+    display: block;
+    margin: 12rem 3rem;
+  }
+  .imgSize {
+    display: none;
+  }
+  .heading {
+    font-size: 3.5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+.top,
+.topContainer,
+.a {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 2rem;
+  padding: 0.4rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  color: rgb(168, 166, 166);
+  background-color: #1a1a1a;
+}
+
+.top:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

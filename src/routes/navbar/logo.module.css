@@ -1,7 +1,8 @@
 .container {
   position: fixed;
   left: 10rem;
-  top: 2.6rem;
+  top: 1.3rem;
+  z-index: 11;
 }
 
 .logo {
@@ -9,4 +10,11 @@
   background-color: #d6cfff;
   color: #1a1a1a;
   border-radius: 3rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1320px) {
+  .logo {
+    display: none;
+  }
 }

@@ -7,6 +7,7 @@
 .textDiv {
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 
 .text {
@@ -15,10 +16,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  margin: 4rem 0 3rem 0;
-}
-.cat {
-  max-width: 25rem;
+  margin: 1rem 1rem 3rem 0rem;
 }
 
 /* form */
@@ -29,8 +27,8 @@
 }
 .div {
   background-color: #d9d9d9;
-  height: 47rem;
-  width: 57rem;
+  height: 40rem;
+  width: 50rem;
   border-radius: 5rem;
   margin-bottom: -3rem;
   display: flex;
@@ -83,20 +81,21 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin-right: 5rem;
-  margin-bottom: 16rem;
+  margin-right: 1rem;
+  margin-bottom: 13rem;
   background-color: #d9d9d9;
 }
 
 .contactDiv {
   margin-bottom: 3.9rem;
+  margin-right: 1rem;
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #1a1a1a;
   background-color: #d9d9d9;
   font-weight: bold;
@@ -106,4 +105,78 @@
   font-size: 1.5rem;
   color: #1a1a1a;
   background-color: #d9d9d9;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    margin: 0rem 3rem;
+  }
+  .text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1370px) {
+  .container {
+    flex-direction: column;
+  }
+  .formDiv {
+    justify-content: flex-start;
+  }
+  .infoDiv {
+    position: absolute;
+    margin-left: 26rem;
+    margin-bottom: 13rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .div {
+    height: 50rem;
+  }
+  .infoDiv {
+    position: absolute;
+    margin-left: 4rem;
+    margin-bottom: 29rem;
+  }
+  .contactDiv {
+    margin-bottom: 2.5rem;
+  }
+  .form {
+    margin-top: 15rem;
+  }
+  .input {
+    font-size: 1.8rem;
+  }
+  .button {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 585px) {
+  .div {
+    height: 44rem;
+  }
+  .infoDiv {
+    margin-bottom: 25rem;
+    margin-left: 3rem;
+  }
+  .input {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .info {
+    font-size: 1.3rem;
+  }
+  .form {
+    margin: 10rem 1rem 0 3rem;
+  }
 }

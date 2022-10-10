@@ -6,21 +6,15 @@ function NavBar(props) {
     <div className={styles.container}>
       <Logo text="HN" />
       <div className={styles.textDiv}>
-        <span className={styles.text}>
-          <a className={styles.a} href={props.about}>
-            About
-          </a>
-        </span>
-        <span className={styles.text}>
-          <a className={styles.a} href={props.projects}>
-            Projects
-          </a>
-        </span>
-        <span className={styles.text}>
-          <a className={styles.a} href={props.contact}>
-            Contact
-          </a>
-        </span>
+        <a className={styles.a} href={props.about}>
+          <span className={styles.text}>About</span>
+        </a>
+        <a className={styles.a} href={props.projects}>
+          <span className={styles.text}>Projects</span>
+        </a>
+        <a className={styles.a} href={props.contact}>
+          <span className={styles.text}>Contact</span>
+        </a>
       </div>
     </div>
   );

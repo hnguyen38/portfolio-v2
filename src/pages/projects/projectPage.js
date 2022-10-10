@@ -12,6 +12,7 @@ import ProjectText from "../../components/project/text/projectText";
 function ProjectPage(props) {
   return (
     <div className={styles.container}>
+      <div className={styles.empty}></div>
       <SectionHeader title="Projects" name={props.name} />
       <div className={styles.div}>
         <Thumbnail title="Netflix Clone" img={netflix} alt="netflix" />

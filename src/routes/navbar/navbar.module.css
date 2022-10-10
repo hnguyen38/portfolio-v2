@@ -3,9 +3,10 @@
   font-weight: bold;
   font-size: 2rem;
   position: sticky;
-  top: 0rem;
+  top: -1rem;
   z-index: 10;
-  width: 100vw;
+  max-width: 100vw;
+  height: 5rem;
 }
 
 .textDiv {
@@ -13,24 +14,40 @@
   justify-content: center;
   align-items: center;
   margin: 3rem 0;
-  background-color: #1a1a1a;
-  height: 3rem;
-  margin-top: -0.5rem;
+  height: 2rem;
+  margin-top: -1.5rem;
   padding: 4rem 0 2.5rem 0;
+  max-width: 100vw;
 }
 
 .text {
   color: #d6cfff;
   margin: 0 5rem;
-  background-color: #1a1a1a;
   padding: 0.5rem 1rem;
 }
 /* dont let others move */
+
 .text:hover,
 .a:hover {
   cursor: pointer;
   color: white;
-  background-color: #514093;
   transform: scale(1.1);
   border-radius: 3rem;
+}
+
+.text:hover {
+  background-color: #514093;
+}
+
+@media only screen and (max-width: 50vw) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .text {
+    font-size: 1.4rem;
+    margin: 0 1.5rem;
+  }
 }

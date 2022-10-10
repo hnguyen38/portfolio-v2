@@ -1,12 +1,13 @@
 .text {
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
+  margin: 0.5rem;
 }
 
 .container {
   position: fixed;
-  height: 10rem;
+  height: 12.5rem;
   width: 9rem;
   z-index: 11;
   margin-top: 1rem;

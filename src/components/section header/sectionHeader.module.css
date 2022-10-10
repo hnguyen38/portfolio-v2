@@ -12,3 +12,9 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 508px) {
+  .header {
+    font-size: 3.5rem;
+  }
+}
