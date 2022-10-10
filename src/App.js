@@ -10,11 +10,11 @@ function App() {
     <div>
       <NavBar about="#about" projects="#projects" contact="#contact" />
       <LandingPage href="#projects" tophref="#top" />
-      <a name="about" />
+      <a name="about"></a>
       <AboutMe />
-      <a name="projects" />
+      <a name="projects"></a>
       <ProjectPage />
-      <a name="contact" />
+      <a name="contact"> </a>
       <ContactMe />
       <Footer />
     </div>

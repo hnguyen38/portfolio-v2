@@ -9,11 +9,11 @@ import book from "../../images/book.png";
 import Thumbnail from "../../components/project/thumbnail/thumbnail";
 import ProjectText from "../../components/project/text/projectText";
 
-function ProjectPage(props) {
+function ProjectPage() {
   return (
     <div className={styles.container}>
       <div className={styles.empty}></div>
-      <SectionHeader title="Projects" name={props.name} />
+      <SectionHeader title="Projects" />
       <div className={styles.div}>
         <Thumbnail title="Netflix Clone" img={netflix} alt="netflix" />
         <ProjectText

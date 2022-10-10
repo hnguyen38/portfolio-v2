@@ -10,6 +10,7 @@ function Footer() {
         <a
           href="https://www.freepik.com/free-vector/remote-employee-working-home-office-woman-lying-floor-with-laptop-convenient-workplace-comfortable-conditions_28850066.htm#query=girl%20on%20computer&position=25&from_view=search"
           target="_blank"
+          rel="noreferrer"
         >
           Image by studio4rt
         </a>

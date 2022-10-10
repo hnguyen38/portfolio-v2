@@ -25,7 +25,6 @@
   margin: 0 5rem;
   padding: 0.5rem 1rem;
 }
-/* dont let others move */
 
 .text:hover,
 .a:hover {
@@ -37,12 +36,6 @@
 
 .text:hover {
   background-color: #514093;
-}
-
-@media only screen and (max-width: 50vw) {
-  .container {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 830px) {
