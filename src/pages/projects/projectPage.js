@@ -17,7 +17,7 @@ function ProjectPage() {
       <div className={styles.div}>
         <Thumbnail title="Netflix Clone" img={netflix} alt="netflix" />
         <ProjectText
-          des="This is a Netflix Clone that uses a movie database API "
+          des="A clone of popular streaming platform, Netflix, that utilizes a movie database API."
           tech="HTML5, CSS, ReactJS"
           live="https://netflix-clone-038.netlify.app/"
           code="https://github.com/hnguyen38/netflix-clone"
@@ -30,7 +30,7 @@ function ProjectPage() {
 
       <div className={styles.rightDiv}>
         <ProjectText
-          des="A weather application that uses a weather API. It will fetch the forecase for any given city."
+          des="A weather application that fetches data from a weather API in JSON format. It will display the forecast for any given city."
           tech="HTML5, CSS, Bootstrap5, ReactJS"
           live="https://weather-app-038.netlify.app/"
           code="https://github.com/hnguyen38/weather-app"
@@ -45,7 +45,7 @@ function ProjectPage() {
       <div className={styles.div}>
         <Thumbnail title="Booking App" img={book} alt="book" />
         <ProjectText
-          des="A CRUD application with a signin/signup function. Record keeping for job or school applications"
+          des="A CRUD application with a signin/signup function using e-mail or Google. Record keeping for job or school applications."
           tech="HTML5, CSS, ReactJS, Firebase, Firestore"
           live="https://book-app-038.netlify.app/"
           code="https://github.com/hnguyen38/book-keeping-app"
