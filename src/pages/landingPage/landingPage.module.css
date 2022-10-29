@@ -71,10 +71,12 @@
 .top {
   color: rgb(168, 166, 166);
   background-color: #1a1a1a;
+  transition: 1.1s;
 }
 
 .top:hover {
   color: white;
   background-color: black;
   cursor: pointer;
+  transform: scale(1.1);
 }

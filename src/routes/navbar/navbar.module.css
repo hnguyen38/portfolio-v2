@@ -24,8 +24,12 @@
   color: #d6cfff;
   margin: 0 5rem;
   padding: 0.5rem 1rem;
+  transition: 0.7s;
 }
 
+.a {
+  transition: 0.7s;
+}
 .text:hover,
 .a:hover {
   cursor: pointer;

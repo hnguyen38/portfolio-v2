@@ -9,12 +9,12 @@
   font-family: "Poppins", sans-serif;
   border-radius: 3rem;
   font-weight: bold;
+  transition: 0.7s;
 }
 
 .text:hover {
   cursor: pointer;
   color: white;
-  transform: scale(1.2);
 }
 
 @media (max-width: 440px) {

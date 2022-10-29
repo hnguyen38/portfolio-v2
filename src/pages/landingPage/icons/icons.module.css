@@ -5,12 +5,14 @@
 .img {
   width: 4rem;
   margin-right: 2rem;
+  transition: 0.5s;
 }
 
 .mail {
   color: rgb(170, 169, 169);
   font-size: 4rem;
   margin-right: 2rem;
+  transition: 0.5s;
 }
 
 .img:hover,

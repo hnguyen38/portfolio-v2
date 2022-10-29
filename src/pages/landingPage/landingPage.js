@@ -27,7 +27,7 @@ function LandingPage(props) {
       </div>
       <div className={styles.topContainer}>
         <a href={props.tophref} className={styles.a}>
-          <span class={`material-symbols-outlined ${styles.top}`}>
+          <span className={`material-symbols-outlined ${styles.top}`}>
             &#xe5d8;
           </span>
         </a>
