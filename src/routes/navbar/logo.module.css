@@ -1,19 +1,19 @@
 .container {
   position: fixed;
   left: 10rem;
-  top: 1.3rem;
+  top: 0.4rem;
   z-index: 11;
 }
 
 .logo {
-  padding: 0.7rem;
+  padding: 0.5rem;
   background-color: #d6cfff;
   color: #1a1a1a;
   border-radius: 3rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 990px) {
   .logo {
     display: none;
   }
